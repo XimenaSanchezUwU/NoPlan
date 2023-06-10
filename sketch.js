@@ -1,5 +1,5 @@
 let x = 0;
-let xSpeed = 6;
+let xSpeed = 3;
 let textColor;
 let img;
 let myFont;
@@ -33,10 +33,10 @@ function draw() {
   fill(21, 32, 1);
   text('No tengo un plan de vida', x, height / 3);
   textSize(35);
-  fill(21, 32, 1);
+  fill(208, 48, 255);
   text('No tengo un plan de vida', x, height / 1.9);
   textSize(89);
-  fill(random(233,100));
+  fill(textColor);
   text('No tengo un plan de vida', x, height / 1);
 }
 
