@@ -1,5 +1,5 @@
 let x = 0;
-let xSpeed = 3;
+let xSpeed = 2;
 let textColor;
 let img;
 let myFont;
@@ -37,7 +37,7 @@ function draw() {
   text('No tengo un plan de vida', x, height / 1.9);
   textSize(89);
   fill(textColor);
-  text('No tengo un plan de vida', x, height / 1);
+  text('No tengo un plan de vida', x, height / 1.6);
 }
 
 function changeTextColor() {
